@@ -1,27 +1,11 @@
-# InmetricsAngular
+# Inmetrics Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
+## 22/03
+Criamos um projeto e injetamos um servico HTTP, do pacote HttpClientModule do Angular!
+<small>[Video do treinamento 22/03/2021](
+https://inmetricscorp-my.sharepoint.com/personal/vitor_piovezam_inmetrics_com_br/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fvitor%5Fpiovezam%5Finmetrics%5Fcom%5Fbr%2FDocuments%2FRecordings%2FTech%20Talents%20%2D%20Treinamento%20%2D%20InAwards%2D20210322%5F150528%2DMeeting%20Recording%2Emp4&parent=%2Fpersonal%2Fvitor%5Fpiovezam%5Finmetrics%5Fcom%5Fbr%2FDocuments%2FRecordings&originalPath=aHR0cHM6Ly9pbm1ldHJpY3Njb3JwLW15LnNoYXJlcG9pbnQuY29tLzp2Oi9nL3BlcnNvbmFsL3ZpdG9yX3Bpb3ZlemFtX2lubWV0cmljc19jb21fYnIvRVhMMUdnR1dKdUZEcS1vak14NUowNjRCQ1h4TnVqaEdicEk0WVBSdWRXNUdTZz9ydGltZT16OWt2M21idDJFZw)  (acessivel apenas para dominio corporativo) </small>
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Slides utilizados -> https://pt.slideshare.net/sunilos/angular-8
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
