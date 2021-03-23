@@ -1,7 +1,7 @@
 # Inmetrics Angular
 
 <p align="middle">
-<img width="500px" autoplay src="https://pandora-boxx.s3.us-east-1.amazonaws.com/InmetricsAngular.gif">
+<img width="500px" src="https://pandora-boxx.s3.us-east-1.amazonaws.com/InmetricsAngular.gif">
 </p>
 
 ## 22/03
