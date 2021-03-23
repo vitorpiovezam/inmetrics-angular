@@ -2,6 +2,7 @@
 
 <p align="middle">
 <img width="500px" src="https://pandora-boxx.s3.us-east-1.amazonaws.com/InmetricsAngular.gif">
+  <video width="500px" autoplay src="https://pandora-boxx.s3.us-east-1.amazonaws.com/InmetricsAngular.mp4">
 </p>
 
 ## 22/03
