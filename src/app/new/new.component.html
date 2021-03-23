@@ -1,0 +1,21 @@
+<main>
+	<h3>Formulario de Produto</h3>
+	<form [formGroup]="form">
+		<label>Nome</label>
+		<input type="text" id="name" formControlName="name">
+		<label>Descricao</label>
+		<input id="description" formControlName="description">
+		<label>Preco</label>
+		<input type="text" id="price" formControlName="price">
+		<label>Moeda</label>
+		<input type="text" id="currency" formControlName="currency">
+		<button (click)="createProduct(form.value)" [disabled]="!form.valid">
+			Cadastrar
+		</button>
+	</form>
+</main>
+
+<pre>
+{{ form.value | json }}
+{{ form.valid | json }}
+</pre>
