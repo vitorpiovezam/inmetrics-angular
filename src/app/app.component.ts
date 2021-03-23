@@ -1,3 +1,4 @@
+import { BaseResourceService } from './shared/services/base-resource.service';
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 
@@ -7,8 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  constructor(private http: HttpClient) {
-    console.log(this.http);
+  constructor(private service: BaseResourceService) {
+    console.log(this.service);
   }
 
   list = [];
@@ -20,7 +21,7 @@ export class AppComponent {
   }
 
   request() {
-    this.http.get('https://my-blog-cms.herokuapp.com/posts')
+    this.service.get('https://my-blog-cms.herokuapp.com/posts')
     .subscribe(x => this.list = x as []);
   }
 }
