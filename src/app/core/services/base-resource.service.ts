@@ -13,7 +13,6 @@ export abstract class BaseResourceService<T extends EntityBase> {
     private path?: string
     ) { 
     this.apiUrl = `http://localhost:4300/api/${this.path}`
-    console.log(this.apiUrl)
   }
 
   get(): Observable<T[]> {
