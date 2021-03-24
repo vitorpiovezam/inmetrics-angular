@@ -8,6 +8,6 @@ import { BaseResourceService } from 'src/app/core/services/base-resource.service
 })
 export class ProductService extends BaseResourceService<Product> {
   constructor(http: HttpClient) { 
-    super(http);
+    super(http, 'product');
   }
 }

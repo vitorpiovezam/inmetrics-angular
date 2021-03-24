@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { Inject, Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { EntityBase } from '../model/base-resource.model';
 
@@ -9,8 +9,11 @@ export abstract class BaseResourceService<T extends EntityBase> {
 
   constructor(
     private http: HttpClient,
+    @Inject({})
+    private path?: string
     ) { 
-    this.apiUrl = `http://localhost:4300/api/product`
+    this.apiUrl = `http://localhost:4300/api/${this.path}`
+    console.log(this.apiUrl)
   }
 
   get(): Observable<T[]> {
